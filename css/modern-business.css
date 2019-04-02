@@ -32,3 +32,33 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+
+  
+
+#image img {
+  display: inline-block;
+  max-width: 90%; /* You can use different numbers for max-width and max-height! */
+  max-height: 75%;
+  width: auto;
+  height: auto;
+  
+  position: absolute;
+  left: 50%; /* This sets left top corner of the image to the center of the block... */
+  top: 50%; /* This can be set also to bottom: 0; for aligning image to bottom line. Only translateX is used then. */
+  -webkit-transform: translate(-50%,-50%); /* ...and this moves the image 50 % of its width and height back. */
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+/* Fallback for IE8 */
+@media all\0 { 
+  #image img {
+      margin: auto;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+  }
+}
