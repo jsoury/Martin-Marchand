@@ -8,74 +8,251 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Full Width Pics - Start Bootstrap Template</title>
+  <title>Martin&Marcchand</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/full-width-pics.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html" ><img src="./images/minilogo.png" alt="logo entreprise MartinMarchand" width="50px "></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">L'entreprise</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Nos solutions
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="services.html">Menuiserie</a>
+                <a class="dropdown-item" href="services.html">Isolation</a>
+                <a class="dropdown-item" href="services.html">Chauffage</a>
+                <a class="dropdown-item" href="services.html">ECS</a>
+                <!--<a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>-->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nos produits
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                  <a class="dropdown-item" href="services.html">Menuiserie</a>
+                  <a class="dropdown-item" href="services.html">Inject Styréne</a>
+                  <a class="dropdown-item" href="services.html">Pompe à chaleur</a>                  
+                  <!--<a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>-->
+                </div>
+              </li>
+            
+         <!-- <li class="nav-item">
+            <a class="nav-link" href="services.html">Nos solutions</a>
+          </li>-->
+          <li class="nav-item">
+              <a class="nav-link" href="portfolio-2-col.html">Nos réalisation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog-home-2.html">Blog</a>
+              </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>          
+          <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blog
             </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+              <a class="dropdown-item" href="blog-home-2.html">Blog</a>
+              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Other Pages
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item" href="404.html">404</a>
+              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+            </div>
+          </li>-->
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Header - set the background image for the header in the line below -->
-  <header class="py-5 bg-image-full" style="background-image: url('https://unsplash.it/1900/1080?image=1076');">
-    <img class="img-fluid d-block mx-auto" src="http://placehold.it/200x200&text=Logo" alt="">
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('./images/fond1.jpg')">
+          <div class="carousel-caption d-none d-md-block">            
+            <p><button type="button" class="btn btn-primary btn-lg">CONTACTEZ NOUS</button></p>
+          </div>
+        </div>        
+    </div>
   </header>
 
-  <!-- Content section -->
-  <section class="py-5">
-    <div class="container">
-      <h1>Section Heading</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
-    </div>
-  </section>
+  <!-- Page Content -->
+  <div class="container">
 
-  <!-- Image Section - set the background image for the header in the line below -->
-  <section class="py-5 bg-image-full" style="background-image: url('https://unsplash.it/1900/1080?image=1081');">
-    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-    <div style="height: 200px;"></div>
-  </section>
+    <div class="my-4"><h1 >ENT. MARTIN & MARCHAND</h1><h3>L'artisanat a votre service</h3></div>
 
-  <!-- Content section -->
-  <section class="py-5">
-    <div class="container">
-      <h1>Section Heading</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+    <!-- Marketing Icons Section -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">L'entreprise</h4>
+          <div class="card-body">
+            <p class="card-text">
+              Nous sommes une entreprise artisanale spécialisée dans les économies d’énergie. 
+              Nous travaillons avec cet objectif depuis <strong>2008</strong>, afin d'apporter des solutions adaptées aux <strong>particuliers et aux professionnels</strong>.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Nos service</h4>
+          <div class="card-body">
+            <p class="card-text">Nous sommmes spécialisée dans les travaux d’<strong>isolation</strong>, 
+              la pose de <strong>menuiserie</strong> et de tous <a>systèmes de chauffage économiques</a>. 
+              Particulièrement axés sur les énergies renouvelables, 
+              nous vous proposons des solutions afin de vous faire réaliser des économies tout en préservant la planète : 
+              vous pouvez bénéficier d’une énergie propre, gratuite et fiable.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Découvrez nos solutions</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Notre politique</h4>
+          <div class="card-body">
+            <p class="card-text">
+              La politique de notre société: un travail <strong>respectueux de l'environnement</strong>, 
+              nous mettons un point d'honneur à avoir une démarche <strong>écologique et responsable</strong>.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+    <!-- /.row -->
+
+    <!-- Portfolio Section -->
+    <h2>Nos certification</h2>
+
+    <div class="row">
+      <div class="mx-auto" >        
+          <a href="#"><img class="rounded float-left" style="max-width: 400px;" src="./images/qualipac.png" alt="RGE Qualibat"></a>         
+      </div>
+      <div class="mx-auto">        
+          <a href="#"><img class="rounded float-left" style="max-width: 250px;" src="./images/qualibat.jpg" alt="RGE Qualibat"></a>         
+      </div>
+      <div class="mx-auto">        
+          <a href="#"><img class="rounded float-left" style="max-width: 350px;" src="./images/ecoartisan.jpg" alt="RGE Qualibat"></a>         
+      </div>
+    </div><br/>  
+    <!-- /.row -->
+
+    <!-- Features Section -->
+    <div class="row" style="margin-top:20px">
+        <div class="col-lg-6">
+          <div class="row text-center" >
+              <img class="rounded mx-auto d-block" style="max-width: 300px; " src="./images/logo.png" alt="Logo entreprise martin marchand">
+          </div>      
+        <h2> 	ENTREPRISE MARTIN & MARCHAND</h2>        
+        <ul>
+          <li>8 Chemin des Jésuites La folie</li>
+          <li>16000 Angoulême</li>
+          <li>07.78.70.29.82</li>
+          <li>06.46.46.57.73</li>
+          <li><a href="mailto:entreprise.martin-marchand@hotmail.fr" target="_blank">entreprise.martin-marchand@hotmail.fr</a></li>
+        </ul>        
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-header">
+              <h5>Vous souhaitez qu'on vous rappelle ?</h5>
+          </div>
+          <div class="card-body">            
+            <p class="card-text">Un expert vous contactera par téléphone dans les plus brefs délais afin de répondre à toutes vos questions.</p>
+            <form class="needs-validation" novalidate>            
+              <div class="form-row">       
+                <div class="col-md-5 mb-4">
+                  <label for="validationCustomName">Nom</label>
+                  <input type="text" class="form-control" id="validationCustomName" placeholder="Nom" required>
+                  <div class="invalid-feedback">Merci de renseigner votre nom.</div>
+                </div>
+                <div class="col-md-5 mb-4">
+                  <label >Prénom</label>
+                  <input type="text" class="form-control" placeholder="Prénom" >                  
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="col-md-5 mb-4">
+                      <label for="validationCustomPhone">Téléphone</label>
+                      <input type="text" class="form-control" id="validationCustomPhone" placeholder="Téléphone" required>
+                      <div class="invalid-feedback">Merci de renseigner un numéro valide.</div>
+                    </div>
+                <div class="col-md-5 mb-4">
+                  <label for="validationCustomListe"> Votre projet concerne:</label>
+                  <select class="custom-select" id="validationCustomListe" required>
+                    <option value=""></option>
+                    <option value="1">Isolation par injection</option>
+                    <option value="2">Isolation de comble perdu</option>
+                    <option value="3">Isolation de comble amménagé</option>
+                    <option value="4">Menuiserie</option>
+                    <option value="5">Chauffage</option>
+                  </select>
+                  <div class="invalid-feedback">Merci de choisire une option</div>
+                </div>
+              </div>              
+              <button class="btn btn-primary" type="submit">Envoyer</button> 
+            </form>                      
+          </div>
+        </div>        
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr/>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Nous nous déplaçons chez vous pour établir un devis gratuitement.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-success btn-block" href="#">Devis Gratuit</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
@@ -88,6 +265,8 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/rapel.js"></script>
 
 </body>
 
