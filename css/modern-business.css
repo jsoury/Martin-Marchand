@@ -4,11 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+  padding-top: 0px;
 }
 
 #carouselExampleIndicators{
-  margin-block-start:20px;
+  margin-block-start:0px;
 }
 
 .carousel-inner{
@@ -36,7 +36,7 @@ body {
 
   
 
-#image img {
+#image img {  
   display: inline-block;
   max-width: 90%; /* You can use different numbers for max-width and max-height! */
   max-height: 75%;
